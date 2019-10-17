@@ -28,4 +28,4 @@ def test_result_is_found():
     search_box.clear()
     search_box.send_keys("pycon")
     search_box.send_keys(Keys.RETURN)
-    assert "No results found." not in browser.page_source     
+    assert "No results found." not in browser.page_source        
