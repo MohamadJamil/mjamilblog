@@ -45,6 +45,7 @@ class User(UserMixin, db.Model):
         own = Post.query.filter_by(user_id=self.id)
         return followed.union(own).order_by(Post.timestamp.desc())
 
+
     def __repr__(self):
         return '<User {}>'.format(self.username)
     def set_password(self, password):
