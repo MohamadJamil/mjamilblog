@@ -8,7 +8,8 @@ class Config(object):
         'sqlite:///' + os.path.join(basedir, 'app.db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     POSTS_PER_PAGE = 25
-
+    RECAPTCHA_PUBLIC_KEY='6LcCmMQUAAAAAO6SKhd8XIaipQqTQkJThW2up2WA'
+    RECAPTCHA_PRIVATE_KEY='6LcCmMQUAAAAAPOpqMWXD2cSLhGjt0OBbc-nBgPa'
     MAIL_SERVER = os.environ.get('MAIL_SERVER')
     MAIL_PORT = int(os.environ.get('MAIL_PORT') or 25)
     MAIL_USE_TLS = os.environ.get('MAIL_USE_TLS') is not None
