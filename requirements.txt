@@ -97,7 +97,7 @@ parso==0.5.1
 pbr==5.4.3
 pdfminer.six==20191020
 pickleshare==0.7.5
-Pillow==6.0.0
+Pillow==6.2.0
 pipenv==2018.11.26
 prometheus-client==0.7.1
 prompt-toolkit==2.0.9
