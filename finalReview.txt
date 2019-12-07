@@ -1,0 +1,23 @@
+Final Review: 10 questions
+basic html css
+parts of url
+routes handlers
+/*kind of question: how to do this
+check book program, want people to enter info about check book
+what technology you use
+form
+post request
+body
+route handler
+db
+*/
+GET vs POST requests
+GET not for confidential info
+/////////////////////////////
+Templates:
+sqlalchemy
+csrf :attack, attacker submit form that's not requested by the server
+      csrf tokens prevents that
+prevent POST request froms coming back with csrf tokens
+//////////////////////////////////////////////////
+Flask questions
